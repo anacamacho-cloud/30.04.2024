@@ -13,11 +13,15 @@ class Obj {
     }
 }
 
-names = ['Ana','Duda','Berenice',]
-
-
 class Calebe {
-    constructor (string){
-           this.name = string
+    constructor (site){
+           this.site = site;
+    }
+
+    exibirSite(){
+        window.open(this.site);
     }
 }
+
+var novoObj = newObj ("https://term.ooo/4/");
+novoObj.exibirSite();
